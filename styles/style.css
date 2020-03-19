@@ -7,6 +7,22 @@
     margin: 0 auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: 'Helvetica Neue', Arial, sans-serif;
+    border: 2px solid #e34761;
+}
+
+.logo {
+    background-image: url(../images/logo.svg);
+    background-size: cover;
+}
+
+.logo_place_header {
+    position: absolute;
+    top: 30px;
+    left: 64px;
+    border: 2px solid #e34761;
+    width: 183px;
+    height: 32px;
+    z-index: 1;
 }
 
 .header {
@@ -14,13 +30,66 @@
     min-height: 600px;
     max-height: 756px;
     /* выше установили ограничения для секции */
+    background-color: #F2F2F2;
+    border: 2px solid #e34761;
+    display: flex;
+    align-items: center;
+}
+
+.header__title {
+    border: 2px solid #e34761;
+    max-width: 730px;
+    position: absolute;
+    left: 64px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.header__subtitle {
+    border: 2px solid #e34761;
+    width: 388px;
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+    z-index: 1;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #2F80ED;
+}
+
+.header__main-illustration {
+    border: 2px solid #e34761;
+    background-image: url(../images/two_again.png);
+    background-size: cover;
+    width: 765px;
+    height: 608px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+    border: 2px solid #e34761; 
+    background-color: #2F80ED;
+    position: absolute;
+    right: 0px;
+    top: 64px;
     height: 568px;
     width: 568px;
 }
+
+.description {
+    display: flex;
+    align-items: center;
+}
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
