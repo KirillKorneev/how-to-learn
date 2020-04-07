@@ -9,10 +9,10 @@
     min-height: 600px;
     max-height: 756px;
     /* выше установили ограничения для секции */
-    background-color: #F2F2F2;;
+    background-color: #F2F2F2;
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    position: relative;
     overflow: hidden;
+    justify-content: center;
 }

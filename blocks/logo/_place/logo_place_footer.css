@@ -1,0 +1,5 @@
+.logo.logo_place_footer {
+    z-index: 1;
+    margin: 0;
+    background-image: url(../../../images/logo_white.svg);
+}
