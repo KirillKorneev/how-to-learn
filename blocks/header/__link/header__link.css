@@ -5,14 +5,9 @@
     line-height: 25px;
     font-size: 18px;
     opacity: 1;
+    transition: opacity ease 2s;
 }
 
 .header__link:hover {
-    text-decoration: none;
-    color: #2F80ED;
-    align-self: center;
-    line-height: 25px;
-    font-size: 18px;
     opacity: 0.5;
-    transition: opacity ease 2s;
 }

@@ -5,14 +5,9 @@
     padding: 0px;
     text-align: center;
     opacity: 1;
+    transition: opacity ease 2s;
 }
 
 .resources__logo:hover {
-    width: 270px;
-    height: 38px;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
     opacity: 0.5;
-    transition: opacity ease 2s;
 }

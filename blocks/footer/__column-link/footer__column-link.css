@@ -2,11 +2,9 @@
     text-decoration: none;
     color: white; 
     opacity: 1;
+    transition: opacity ease 2s;
 }
 
-.footer__column-link:hover {
-    text-decoration: none;
-    color: white; 
+.footer__column-link:hover { 
     opacity: 0.5;
-    transition: opacity ease 2s;
 }
